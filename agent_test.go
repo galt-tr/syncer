@@ -10,5 +10,5 @@ import (
 func TestGreet(t *testing.T) {
 	got := Greet()
 
-	assert.Equal(t, "Hi!", got, "should properly greet")
+	assert.Equal(t, "Hi!", got, "should properly greet me")
 }
