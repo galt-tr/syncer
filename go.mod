@@ -1,4 +1,4 @@
-module github.com/mrz1836/go-template
+module github.com/BuxOrg/bux-agent
 
 go 1.17
 
