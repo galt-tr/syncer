@@ -4,9 +4,14 @@
 // this GitHub repository!
 //
 // By BuxOrg (https://github.com/BuxOrg)
-package buxAgent
+package main
 
-// Greet will say hi!
+import "github.com/BuxOrg/bux-agent/server"
+
+func main() {
+	server.Start()
+}
+
 func Greet() string {
-	return "Hi!"
+	return "Hello!"
 }

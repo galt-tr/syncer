@@ -1,4 +1,4 @@
-package buxAgent
+package main
 
 import (
 	"testing"
